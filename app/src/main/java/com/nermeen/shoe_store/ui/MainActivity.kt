@@ -1,7 +1,8 @@
-package com.nermeen.shoe_store
+package com.nermeen.shoe_store.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nermeen.shoe_store.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
