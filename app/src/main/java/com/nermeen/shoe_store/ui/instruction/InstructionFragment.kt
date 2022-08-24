@@ -1,4 +1,4 @@
-package com.nermeen.shoe_store.ui.login
+package com.nermeen.shoe_store.ui.instruction
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.nermeen.shoe_store.R
+import com.nermeen.shoe_store.databinding.FragmentDetailsBinding
 import com.nermeen.shoe_store.databinding.FragmentInstructionBinding
-import com.nermeen.shoe_store.databinding.FragmentLoginBinding
 
 
-class LoginFragment : Fragment() {
+class InstructionFragment : Fragment() {
 
-private lateinit var binding: FragmentLoginBinding
+private lateinit var binding: FragmentInstructionBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ private lateinit var binding: FragmentLoginBinding
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentLoginBinding.inflate(inflater, container, false)
+        binding = FragmentInstructionBinding.inflate(inflater, container, false)
         init()
         return binding.root
     }
@@ -33,5 +33,6 @@ private lateinit var binding: FragmentLoginBinding
     private fun init() {
 
     }
+
 
 }

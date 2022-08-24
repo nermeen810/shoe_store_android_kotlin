@@ -50,9 +50,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // ViewModel and LiveData
-    def viewModelLifeCycleVersion = '2.3.0'
+    def viewModelLifeCycleVersion = '2.5.0'
     def androidLifecycleExtensionsVersion = '2.2.0'
     implementation "androidx.lifecycle:lifecycle-extensions:$androidLifecycleExtensionsVersion"
+    //noinspection GradleDependency
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelLifeCycleVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$viewModelLifeCycleVersion"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$viewModelLifeCycleVersion"
