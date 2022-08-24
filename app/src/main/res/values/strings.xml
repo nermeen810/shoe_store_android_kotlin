@@ -3,4 +3,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="login_userName_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="required_field">required</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="weak_pass">weak password</string>
+    <string name="success_login">login successfully</string>
 </resources>
