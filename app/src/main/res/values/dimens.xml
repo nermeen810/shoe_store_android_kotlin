@@ -3,4 +3,5 @@
     <dimen name="paddingLayout">16dp</dimen>
     <dimen name="sub_header_text">18sp</dimen>
     <dimen name="headerTextSize">24sp</dimen>
+    <dimen name="paddingText">4sp</dimen>
 </resources>

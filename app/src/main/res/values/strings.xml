@@ -17,4 +17,10 @@
     <string name="instructions_msg">This is Our Instructions</string>
     <string name="go_to_Store">Go to Our Store</string>
     <string name="store">Shoe Store</string>
+    <string name="add_shoe">Add new shoe</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="description">Description</string>
 </resources>

@@ -10,8 +10,9 @@ import javax.inject.Inject
 
  @HiltViewModel
 class MainViewModel @Inject constructor(private val modelRepository: ModelRepo) : ViewModel() {
-      var _addShoe = MutableLiveData<ArrayList<Shoe>>()
-      var _setError = MutableLiveData<String>()
+     companion object {
+         var _addShoe = MutableLiveData<ArrayList<Shoe>>(arrayListOf())
+     }
 
      fun isLogin():Boolean{
        return modelRepository.isLogin()
