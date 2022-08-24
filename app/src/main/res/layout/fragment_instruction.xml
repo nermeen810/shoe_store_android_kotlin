@@ -1,14 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.instruction.InstructionFragment">
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/paddingLayout"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_storefront_teal"
+        app:layout_constraintBottom_toTopOf="@+id/company_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/paddingLayout"
+        android:text="@string/company_name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/headerTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/instruction_msg_txt"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
-</FrameLayout>
+
+    <TextView
+        android:id="@+id/instruction_msg_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/instructions_msg"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sub_header_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/shoeList_msg_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_Store"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/sub_header_text"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/instruction_msg_txt" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/store_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/store"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+         style="@style/button_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

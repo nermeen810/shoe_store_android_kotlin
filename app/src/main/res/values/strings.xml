@@ -10,4 +10,11 @@
     <string name="invalid_email">invalid email</string>
     <string name="weak_pass">weak password</string>
     <string name="success_login">login successfully</string>
+    <string name="welcome_msg">Welcome to My Shoe Store</string>
+    <string name="company_name">Shoe Store</string>
+    <string name="instruction_msg">Go To My Store Instruction</string>
+    <string name="instruction">Instruction</string>
+    <string name="instructions_msg">This is Our Instructions</string>
+    <string name="go_to_Store">Go to Our Store</string>
+    <string name="store">Shoe Store</string>
 </resources>

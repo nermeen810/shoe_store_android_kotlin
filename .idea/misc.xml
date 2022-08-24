@@ -7,7 +7,10 @@
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/ic_baseline_visibility_on_24.xml" value="0.1725" />
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/rect.xml" value="0.1725" />
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/show_password_selector.xml" value="0.1725" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_instruction.xml" value="0.36666666666666664" />
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/menu/logout_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

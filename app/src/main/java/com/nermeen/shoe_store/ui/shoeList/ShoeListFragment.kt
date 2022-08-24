@@ -4,12 +4,13 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.nermeen.shoe_store.R
-import com.nermeen.shoe_store.databinding.FragmentLoginBinding
 import com.nermeen.shoe_store.databinding.FragmentShoeListBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ShoeListFragment : Fragment() {
 
 private  lateinit var binding: FragmentShoeListBinding
@@ -40,7 +41,12 @@ private  lateinit var binding: FragmentShoeListBinding
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
-                || super.onOptionsItemSelected(item)
+        navigateToLogin()
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun navigateToLogin() {
+        val action = ShoeListFragmentDirections.actionShoeListFragmentToLoginFragment()
+        findNavController().navigate(action)
     }
 }

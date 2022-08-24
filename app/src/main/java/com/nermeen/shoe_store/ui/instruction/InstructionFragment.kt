@@ -5,11 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.nermeen.shoe_store.R
-import com.nermeen.shoe_store.databinding.FragmentDetailsBinding
+import androidx.navigation.fragment.findNavController
 import com.nermeen.shoe_store.databinding.FragmentInstructionBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class InstructionFragment : Fragment() {
 
 private lateinit var binding: FragmentInstructionBinding
@@ -31,7 +31,14 @@ private lateinit var binding: FragmentInstructionBinding
     }
 
     private fun init() {
+        binding.storeBtn.setOnClickListener{
+            navigateToStoreList()
+        }
+    }
 
+    private fun navigateToStoreList() {
+        val action = InstructionFragmentDirections.actionInstructionFragmentToShoeListFragment()
+        findNavController().navigate(action)
     }
 
 
