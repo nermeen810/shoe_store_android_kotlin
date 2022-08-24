@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_style">
+        <item name="android:layout_margin">@dimen/paddingLayout</item>
+        <item name="android:background">@drawable/rect</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sub_header_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

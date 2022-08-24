@@ -5,10 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.nermeen.shoe_store.R
 import com.nermeen.shoe_store.databinding.FragmentDetailsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class DetailsFragment : Fragment() {
 private  lateinit var binding: FragmentDetailsBinding
 
