@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1725" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/ic_baseline_visibility_on_24.xml" value="0.1725" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/rect.xml" value="0.1725" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/drawable/show_password_selector.xml" value="0.1725" />
+        <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
