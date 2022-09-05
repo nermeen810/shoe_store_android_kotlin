@@ -16,11 +16,11 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class DetailsFragment : Fragment() {
     private  lateinit var binding: FragmentDetailsBinding
-
+    private  val viewModel: MainViewModel by viewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentDetailsBinding.inflate(inflater, container, false)
         init()
@@ -28,6 +28,9 @@ class DetailsFragment : Fragment() {
     }
 
     private fun init() {
+        binding.viewModel = viewModel
+        binding.lifecycleOwner = this
+        viewModel.title.value = "Add New Shoe"
         binding.saveButton.setOnClickListener {
             validateData()
         }

@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".ui.login.LoginFragment">
 
+<!--    init comment   -->
+
     <ImageView
         android:id="@+id/img_logo"
         android:layout_width="60dp"
@@ -17,6 +19,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputEmail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/company_name"

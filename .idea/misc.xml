@@ -14,6 +14,11 @@
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_shoe_list.xml" value="0.36666666666666664" />
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/layout/fragment_welcome.xml" value="0.36666666666666664" />
         <entry key="..\:/ARG project/shoe_store/app/src/main/res/menu/logout_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/shoe_store_android_kotlin/app/src/main/res/layout/fragment_details.xml" value="0.3625" />
+        <entry key="..\:/shoe_store_android_kotlin/app/src/main/res/layout/fragment_instruction.xml" value="0.3625" />
+        <entry key="..\:/shoe_store_android_kotlin/app/src/main/res/layout/fragment_login.xml" value="0.3625" />
+        <entry key="..\:/shoe_store_android_kotlin/app/src/main/res/layout/fragment_shoe_list.xml" value="0.3625" />
+        <entry key="..\:/shoe_store_android_kotlin/app/src/main/res/layout/fragment_welcome.xml" value="0.3625" />
       </map>
     </option>
   </component>
